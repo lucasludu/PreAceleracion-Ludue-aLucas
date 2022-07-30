@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Disney</name>
+    </assembly>
+    <members>
+        <member name="M:Disney.Controllers.CharacterController.Post(Disney.Dtos.Character.CharacterCreateDto)">
+            <summary>
+            Add Character
+            </summary>
+            <param name="characterCreate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.CharacterController.GetById(System.Int32)">
+            <summary>
+            Get Character by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.CharacterController.GetCharacters(System.String,System.Int32,System.Int32)">
+            <summary>
+            Get Character eby name | age | movies
+            </summary>
+            <param name="name"></param>
+            <param name="age"></param>
+            <param name="movies"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.CharacterController.Put(System.Int32,Disney.Dtos.Character.CharacterCreateDto)">
+            <summary>
+            Update Character
+            </summary>
+            <param name="id"></param>
+            <param name="characterUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.CharacterController.Delete(System.Int32)">
+            <summary>
+            Delete Character By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.GenreController.Post(Disney.Dtos.Genre.GenreCreateDto)">
+            <summary>
+            Add Genre
+            </summary>
+            <param name="genreCreate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.GenreController.GetAllGenres">
+            <summary>
+            Get All Genre
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.GenreController.AddMovieToGenre(System.Int32,System.Int32)">
+            <summary>
+            Add Movie To Genre
+            </summary>
+            <param name="genreId"></param>
+            <param name="movieId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.LoginController.Login(Disney.Auth.Request.LoginRequest)">
+            <summary>
+            User Authentication
+            </summary>
+            <param name="userRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.LoginController.Register(Disney.Auth.Request.RegisterRequest)">
+            <summary>
+            New User Registration
+            </summary>
+            <param name="userRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.MovieController.Post(Disney.Dtos.Movies.MovieCreateDto)">
+            <summary>
+            Add Movie
+            </summary>
+            <param name="movieCreate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.MovieController.AllMovies(System.String,System.Int32,Disney.Utilities.Order)">
+            <summary>
+            Get All Movies
+            </summary>
+            <param name="name"></param>
+            <param name="genre"></param>
+            <param name="order"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.MovieController.GetMovieDetails(System.Int32)">
+            <summary>
+            Get Movie Details by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.MovieController.AddCharacterToMovie(System.Int32,System.Int32)">
+            <summary>
+            Add Character To Movie
+            </summary>
+            <param name="movieId"></param>
+            <param name="characterId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.MovieController.Put(System.Int32,Disney.Dtos.Movies.MovieCreateDto)">
+            <summary>
+            Update Movie
+            </summary>
+            <param name="id"></param>
+            <param name="movieUpdate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Disney.Controllers.MovieController.Delete(System.Int32)">
+            <summary>
+            Delete Movie by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
